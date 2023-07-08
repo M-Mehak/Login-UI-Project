@@ -1,20 +1,11 @@
- body {
+body {
     background: linear-gradient(35deg, rgb(204, 59, 126), rgb(237, 155, 148));
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .background-div {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
+    align-items: center;
+    height: 100vh;  
+}
+ 
   .login-card {
     display: flex;
     flex-direction: column;
@@ -22,17 +13,8 @@
     align-items: center;
     background: linear-gradient(rgba(207, 56, 126, 0.35), rgba(277, 158, 142, 0.25)), url(pixels-frosty.jpg) center/cover no-repeat;
     box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.5);
-    min-width: 200px;
+    width: 450px;   min-height: 400px;
     max-width: 85%;
-    height: 390px;
-    width: 450px;
-  }
-   
-  .username,
-  .password,
-  .Confirm-Password {
-    display: flex;
-    flex-direction: column;
   }
   
   input[type="text"],
@@ -46,7 +28,6 @@
     background-color: #c54b84;
     color: black;
     font-weight: bold;
-    border: none;
     border-radius: 20px;
     height: 40px;
     width: 90px;
