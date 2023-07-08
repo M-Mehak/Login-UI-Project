@@ -24,14 +24,15 @@ body {
     box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.5);
     padding: 20px;
     height: 400px;
-    width: 430px;
-    min-width: 400px;
+    width: 420px;
+    min-width: 300px;
 }
 
-.username,
-.password {
-    margin-bottom: 7px;
-}
+.username, .password, .Confirm-Password {
+    display: flex;
+    flex-direction: column;
+   }
+   
 
 input[type="text"],
 input[type="password"] {
