@@ -58,4 +58,13 @@ body {
     margin: 0 auto; 
     width: 100%;
   }
-   
+  @media (max-width: 360px) {
+    .login-card {
+        width: 380px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+    }
+}
